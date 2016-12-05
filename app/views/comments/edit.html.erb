@@ -1,0 +1,6 @@
+<%= form_for [@post,@comment] do |f| %>
+  <%= f.label :Comment%>
+  <%= f.text_field :body %>
+  <%= f.submit%>
+<%end%>
+<%= link_to 'Back', @post %>
